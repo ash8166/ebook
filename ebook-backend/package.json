@@ -1,0 +1,27 @@
+{
+  "name": "ebook-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npx mocha ./test/unitTest.js --timeout=30000"
+  },
+  "keywords": [],
+  "author": "Ashish Bhatt",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "better-sqlite3": "^7.4.6",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "joi": "^17.5.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "supertest": "^6.2.0"
+  }
+}
