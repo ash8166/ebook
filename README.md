@@ -1,4 +1,4 @@
-# Full Stack Developer Exercise
+# Ebook Management System
 
 This is a small ebook management app with React, Node.js, and SQLite.
 
